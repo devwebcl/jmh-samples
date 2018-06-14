@@ -1,0 +1,651 @@
+Results:
+========
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 1000, size = 1000000)
+
+# Run progress: 0.00% complete, ETA 01:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 472.135 us/op
+# Warmup Iteration   2: 520.030 us/op
+# Warmup Iteration   3: 519.352 us/op
+# Warmup Iteration   4: 504.761 us/op
+# Warmup Iteration   5: 507.956 us/op
+# Warmup Iteration   6: 589.200 us/op
+# Warmup Iteration   7: 624.583 us/op
+# Warmup Iteration   8: 541.838 us/op
+# Warmup Iteration   9: 494.893 us/op
+# Warmup Iteration  10: 469.587 us/op
+Iteration   1: 486.154 us/op
+Iteration   2: 496.535 us/op
+Iteration   3: 468.293 us/op
+Iteration   4: 469.936 us/op
+Iteration   5: 519.011 us/op
+Iteration   6: 477.940 us/op
+Iteration   7: 467.434 us/op
+Iteration   8: 468.078 us/op
+Iteration   9: 471.780 us/op
+Iteration  10: 469.194 us/op
+Iteration  11: 466.059 us/op
+Iteration  12: 464.511 us/op
+Iteration  13: 475.618 us/op
+Iteration  14: 488.274 us/op
+Iteration  15: 477.351 us/op
+Iteration  16: 486.878 us/op
+Iteration  17: 640.324 us/op
+Iteration  18: 855.493 us/op
+Iteration  19: 1315.375 us/op
+Iteration  20: 563.935 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  551.409 ±(99.9%) 175.122 us/op [Average]
+  (min, avg, max) = (464.511, 551.409, 1315.375), stdev = 201.670
+  CI (99.9%): [376.287, 726.530] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 10000, size = 1000000)
+
+# Run progress: 8.33% complete, ETA 00:58:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 695.627 us/op
+# Warmup Iteration   2: 700.614 us/op
+# Warmup Iteration   3: 724.420 us/op
+# Warmup Iteration   4: 710.944 us/op
+# Warmup Iteration   5: 1168.085 us/op
+# Warmup Iteration   6: 1568.420 us/op
+# Warmup Iteration   7: 1543.066 us/op
+# Warmup Iteration   8: 1305.788 us/op
+# Warmup Iteration   9: 1566.370 us/op
+# Warmup Iteration  10: 2112.615 us/op
+Iteration   1: 1562.852 us/op
+Iteration   2: 2366.016 us/op
+Iteration   3: 1071.488 us/op
+Iteration   4: 1022.033 us/op
+Iteration   5: 1024.704 us/op
+Iteration   6: 910.756 us/op
+Iteration   7: 609.160 us/op
+Iteration   8: 599.917 us/op
+Iteration   9: 586.587 us/op
+Iteration  10: 589.848 us/op
+Iteration  11: 586.604 us/op
+Iteration  12: 602.722 us/op
+Iteration  13: 583.929 us/op
+Iteration  14: 584.643 us/op
+Iteration  15: 583.223 us/op
+Iteration  16: 586.497 us/op
+Iteration  17: 580.379 us/op
+Iteration  18: 582.101 us/op
+Iteration  19: 580.149 us/op
+Iteration  20: 579.385 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  809.650 ±(99.9%) 390.746 us/op [Average]
+  (min, avg, max) = (579.385, 809.650, 2366.016), stdev = 449.984
+  CI (99.9%): [418.903, 1200.396] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 100000, size = 1000000)
+
+# Run progress: 16.67% complete, ETA 00:53:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 1412.537 us/op
+# Warmup Iteration   2: 1402.475 us/op
+# Warmup Iteration   3: 1419.913 us/op
+# Warmup Iteration   4: 1427.173 us/op
+# Warmup Iteration   5: 1420.763 us/op
+# Warmup Iteration   6: 1440.015 us/op
+# Warmup Iteration   7: 1435.003 us/op
+# Warmup Iteration   8: 1439.798 us/op
+# Warmup Iteration   9: 1440.583 us/op
+# Warmup Iteration  10: 1436.118 us/op
+Iteration   1: 1418.990 us/op
+Iteration   2: 1431.473 us/op
+Iteration   3: 1436.106 us/op
+Iteration   4: 1420.628 us/op
+Iteration   5: 1430.938 us/op
+Iteration   6: 1434.823 us/op
+Iteration   7: 1428.300 us/op
+Iteration   8: 1435.035 us/op
+Iteration   9: 1436.894 us/op
+Iteration  10: 1433.240 us/op
+Iteration  11: 1429.917 us/op
+Iteration  12: 1438.713 us/op
+Iteration  13: 1420.696 us/op
+Iteration  14: 1421.799 us/op
+Iteration  15: 1432.400 us/op
+Iteration  16: 1433.094 us/op
+Iteration  17: 1429.257 us/op
+Iteration  18: 1436.969 us/op
+Iteration  19: 1434.514 us/op
+Iteration  20: 1427.684 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  1430.573 ±(99.9%) 5.165 us/op [Average]
+  (min, avg, max) = (1418.990, 1430.573, 1438.713), stdev = 5.948
+  CI (99.9%): [1425.408, 1435.739] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 1000000, size = 1000000)
+
+# Run progress: 25.00% complete, ETA 00:48:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 852.793 us/op
+# Warmup Iteration   2: 838.208 us/op
+# Warmup Iteration   3: 842.552 us/op
+# Warmup Iteration   4: 840.633 us/op
+# Warmup Iteration   5: 842.540 us/op
+# Warmup Iteration   6: 833.369 us/op
+# Warmup Iteration   7: 841.012 us/op
+# Warmup Iteration   8: 842.454 us/op
+# Warmup Iteration   9: 839.530 us/op
+# Warmup Iteration  10: 838.687 us/op
+Iteration   1: 843.400 us/op
+Iteration   2: 840.935 us/op
+Iteration   3: 839.364 us/op
+Iteration   4: 839.972 us/op
+Iteration   5: 848.389 us/op
+Iteration   6: 848.346 us/op
+Iteration   7: 827.116 us/op
+Iteration   8: 829.620 us/op
+Iteration   9: 825.541 us/op
+Iteration  10: 829.331 us/op
+Iteration  11: 826.957 us/op
+Iteration  12: 823.329 us/op
+Iteration  13: 824.055 us/op
+Iteration  14: 832.117 us/op
+Iteration  15: 824.034 us/op
+Iteration  16: 823.768 us/op
+Iteration  17: 831.117 us/op
+Iteration  18: 827.341 us/op
+Iteration  19: 830.463 us/op
+Iteration  20: 832.245 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  832.372 ±(99.9%) 7.068 us/op [Average]
+  (min, avg, max) = (823.329, 832.372, 848.389), stdev = 8.140
+  CI (99.9%): [825.304, 839.440] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 10000000, size = 1000000)
+
+# Run progress: 33.33% complete, ETA 00:42:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 891.665 us/op
+# Warmup Iteration   2: 873.234 us/op
+# Warmup Iteration   3: 895.292 us/op
+# Warmup Iteration   4: 893.199 us/op
+# Warmup Iteration   5: 913.006 us/op
+# Warmup Iteration   6: 892.860 us/op
+# Warmup Iteration   7: 896.977 us/op
+# Warmup Iteration   8: 891.499 us/op
+# Warmup Iteration   9: 897.614 us/op
+# Warmup Iteration  10: 894.907 us/op
+Iteration   1: 895.680 us/op
+Iteration   2: 887.929 us/op
+Iteration   3: 901.840 us/op
+Iteration   4: 891.074 us/op
+Iteration   5: 894.699 us/op
+Iteration   6: 895.358 us/op
+Iteration   7: 902.022 us/op
+Iteration   8: 892.395 us/op
+Iteration   9: 893.273 us/op
+Iteration  10: 894.639 us/op
+Iteration  11: 889.941 us/op
+Iteration  12: 892.016 us/op
+Iteration  13: 895.533 us/op
+Iteration  14: 887.499 us/op
+Iteration  15: 887.458 us/op
+Iteration  16: 897.935 us/op
+Iteration  17: 893.859 us/op
+Iteration  18: 891.579 us/op
+Iteration  19: 894.668 us/op
+Iteration  20: 893.490 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  893.644 ±(99.9%) 3.492 us/op [Average]
+  (min, avg, max) = (887.458, 893.644, 902.022), stdev = 4.022
+  CI (99.9%): [890.152, 897.136] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testBranched
+# Parameters: (bound = 100000000, size = 1000000)
+
+# Run progress: 41.67% complete, ETA 00:37:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 528.252 us/op
+# Warmup Iteration   2: 538.149 us/op
+# Warmup Iteration   3: 534.065 us/op
+# Warmup Iteration   4: 531.676 us/op
+# Warmup Iteration   5: 530.510 us/op
+# Warmup Iteration   6: 530.893 us/op
+# Warmup Iteration   7: 532.935 us/op
+# Warmup Iteration   8: 528.075 us/op
+# Warmup Iteration   9: 533.601 us/op
+# Warmup Iteration  10: 530.016 us/op
+Iteration   1: 530.345 us/op
+Iteration   2: 534.931 us/op
+Iteration   3: 529.978 us/op
+Iteration   4: 536.461 us/op
+Iteration   5: 536.873 us/op
+Iteration   6: 536.835 us/op
+Iteration   7: 530.951 us/op
+Iteration   8: 534.916 us/op
+Iteration   9: 534.770 us/op
+Iteration  10: 534.646 us/op
+Iteration  11: 531.442 us/op
+Iteration  12: 534.265 us/op
+Iteration  13: 534.446 us/op
+Iteration  14: 534.698 us/op
+Iteration  15: 535.386 us/op
+Iteration  16: 536.387 us/op
+Iteration  17: 534.349 us/op
+Iteration  18: 537.339 us/op
+Iteration  19: 538.224 us/op
+Iteration  20: 536.493 us/op
+
+
+Result "com.simonj.MyBenchmark.testBranched":
+  534.687 ±(99.9%) 2.038 us/op [Average]
+  (min, avg, max) = (529.978, 534.687, 538.224), stdev = 2.348
+  CI (99.9%): [532.648, 536.725] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 1000, size = 1000000)
+
+# Run progress: 50.00% complete, ETA 00:32:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 866.508 us/op
+# Warmup Iteration   2: 849.670 us/op
+# Warmup Iteration   3: 870.342 us/op
+# Warmup Iteration   4: 878.696 us/op
+# Warmup Iteration   5: 873.688 us/op
+# Warmup Iteration   6: 868.517 us/op
+# Warmup Iteration   7: 878.577 us/op
+# Warmup Iteration   8: 871.869 us/op
+# Warmup Iteration   9: 866.584 us/op
+# Warmup Iteration  10: 875.906 us/op
+Iteration   1: 874.421 us/op
+Iteration   2: 882.826 us/op
+Iteration   3: 887.685 us/op
+Iteration   4: 878.768 us/op
+Iteration   5: 883.871 us/op
+Iteration   6: 877.182 us/op
+Iteration   7: 876.665 us/op
+Iteration   8: 872.316 us/op
+Iteration   9: 868.039 us/op
+Iteration  10: 877.853 us/op
+Iteration  11: 868.828 us/op
+Iteration  12: 867.161 us/op
+Iteration  13: 874.713 us/op
+Iteration  14: 872.808 us/op
+Iteration  15: 870.596 us/op
+Iteration  16: 875.240 us/op
+Iteration  17: 872.585 us/op
+Iteration  18: 873.996 us/op
+Iteration  19: 887.276 us/op
+Iteration  20: 876.100 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  875.946 ±(99.9%) 5.085 us/op [Average]
+  (min, avg, max) = (867.161, 875.946, 887.685), stdev = 5.855
+  CI (99.9%): [870.862, 881.031] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 10000, size = 1000000)
+
+# Run progress: 58.33% complete, ETA 00:26:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 861.259 us/op
+# Warmup Iteration   2: 845.857 us/op
+# Warmup Iteration   3: 875.220 us/op
+# Warmup Iteration   4: 867.282 us/op
+# Warmup Iteration   5: 870.856 us/op
+# Warmup Iteration   6: 873.088 us/op
+# Warmup Iteration   7: 872.886 us/op
+# Warmup Iteration   8: 866.912 us/op
+# Warmup Iteration   9: 873.161 us/op
+# Warmup Iteration  10: 870.330 us/op
+Iteration   1: 867.882 us/op
+Iteration   2: 875.772 us/op
+Iteration   3: 873.327 us/op
+Iteration   4: 869.915 us/op
+Iteration   5: 875.355 us/op
+Iteration   6: 879.405 us/op
+Iteration   7: 878.006 us/op
+Iteration   8: 877.527 us/op
+Iteration   9: 876.826 us/op
+Iteration  10: 880.384 us/op
+Iteration  11: 875.314 us/op
+Iteration  12: 882.778 us/op
+Iteration  13: 880.849 us/op
+Iteration  14: 875.894 us/op
+Iteration  15: 881.897 us/op
+Iteration  16: 880.302 us/op
+Iteration  17: 882.865 us/op
+Iteration  18: 878.732 us/op
+Iteration  19: 882.887 us/op
+Iteration  20: 881.508 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  877.871 ±(99.9%) 3.640 us/op [Average]
+  (min, avg, max) = (867.882, 877.871, 882.887), stdev = 4.192
+  CI (99.9%): [874.231, 881.512] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 100000, size = 1000000)
+
+# Run progress: 66.67% complete, ETA 00:21:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 859.862 us/op
+# Warmup Iteration   2: 853.625 us/op
+# Warmup Iteration   3: 879.911 us/op
+# Warmup Iteration   4: 880.780 us/op
+# Warmup Iteration   5: 880.540 us/op
+# Warmup Iteration   6: 884.358 us/op
+# Warmup Iteration   7: 872.531 us/op
+# Warmup Iteration   8: 881.038 us/op
+# Warmup Iteration   9: 882.695 us/op
+# Warmup Iteration  10: 881.025 us/op
+Iteration   1: 878.320 us/op
+Iteration   2: 885.127 us/op
+Iteration   3: 880.872 us/op
+Iteration   4: 882.900 us/op
+Iteration   5: 886.897 us/op
+Iteration   6: 907.101 us/op
+Iteration   7: 871.727 us/op
+Iteration   8: 876.649 us/op
+Iteration   9: 872.728 us/op
+Iteration  10: 870.404 us/op
+Iteration  11: 869.244 us/op
+Iteration  12: 869.388 us/op
+Iteration  13: 874.969 us/op
+Iteration  14: 875.951 us/op
+Iteration  15: 867.712 us/op
+Iteration  16: 868.932 us/op
+Iteration  17: 875.013 us/op
+Iteration  18: 878.765 us/op
+Iteration  19: 877.392 us/op
+Iteration  20: 881.948 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  877.602 ±(99.9%) 7.742 us/op [Average]
+  (min, avg, max) = (867.712, 877.602, 907.101), stdev = 8.916
+  CI (99.9%): [869.860, 885.344] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 1000000, size = 1000000)
+
+# Run progress: 75.00% complete, ETA 00:16:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 860.553 us/op
+# Warmup Iteration   2: 850.068 us/op
+# Warmup Iteration   3: 880.434 us/op
+# Warmup Iteration   4: 879.477 us/op
+# Warmup Iteration   5: 880.347 us/op
+# Warmup Iteration   6: 877.744 us/op
+# Warmup Iteration   7: 882.711 us/op
+# Warmup Iteration   8: 874.020 us/op
+# Warmup Iteration   9: 871.165 us/op
+# Warmup Iteration  10: 884.318 us/op
+Iteration   1: 881.485 us/op
+Iteration   2: 874.585 us/op
+Iteration   3: 882.342 us/op
+Iteration   4: 880.286 us/op
+Iteration   5: 876.979 us/op
+Iteration   6: 877.772 us/op
+Iteration   7: 881.619 us/op
+Iteration   8: 885.986 us/op
+Iteration   9: 888.909 us/op
+Iteration  10: 883.182 us/op
+Iteration  11: 879.149 us/op
+Iteration  12: 884.123 us/op
+Iteration  13: 882.568 us/op
+Iteration  14: 882.635 us/op
+Iteration  15: 878.406 us/op
+Iteration  16: 885.432 us/op
+Iteration  17: 884.766 us/op
+Iteration  18: 884.056 us/op
+Iteration  19: 878.464 us/op
+Iteration  20: 872.353 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  881.255 ±(99.9%) 3.513 us/op [Average]
+  (min, avg, max) = (872.353, 881.255, 888.909), stdev = 4.045
+  CI (99.9%): [877.742, 884.768] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 10000000, size = 1000000)
+
+# Run progress: 83.33% complete, ETA 00:10:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 853.518 us/op
+# Warmup Iteration   2: 850.056 us/op
+# Warmup Iteration   3: 868.746 us/op
+# Warmup Iteration   4: 868.967 us/op
+# Warmup Iteration   5: 879.328 us/op
+# Warmup Iteration   6: 868.252 us/op
+# Warmup Iteration   7: 870.255 us/op
+# Warmup Iteration   8: 870.089 us/op
+# Warmup Iteration   9: 870.207 us/op
+# Warmup Iteration  10: 870.825 us/op
+Iteration   1: 868.587 us/op
+Iteration   2: 871.745 us/op
+Iteration   3: 867.697 us/op
+Iteration   4: 870.264 us/op
+Iteration   5: 875.407 us/op
+Iteration   6: 870.147 us/op
+Iteration   7: 875.634 us/op
+Iteration   8: 883.154 us/op
+Iteration   9: 878.421 us/op
+Iteration  10: 875.849 us/op
+Iteration  11: 880.241 us/op
+Iteration  12: 875.402 us/op
+Iteration  13: 873.274 us/op
+Iteration  14: 872.394 us/op
+Iteration  15: 884.388 us/op
+Iteration  16: 876.370 us/op
+Iteration  17: 882.358 us/op
+Iteration  18: 881.873 us/op
+Iteration  19: 882.253 us/op
+Iteration  20: 877.333 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  876.140 ±(99.9%) 4.416 us/op [Average]
+  (min, avg, max) = (867.697, 876.140, 884.388), stdev = 5.086
+  CI (99.9%): [871.723, 880.556] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.7.0_80, Java HotSpot(TM) 64-Bit Server VM, 24.80-b11
+# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre/bin/java
+# VM options: -Xms2g -Xmx2g
+# Warmup: 10 iterations, 10 s each
+# Measurement: 20 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.simonj.MyBenchmark.testShifted
+# Parameters: (bound = 100000000, size = 1000000)
+
+# Run progress: 91.67% complete, ETA 00:05:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 855.749 us/op
+# Warmup Iteration   2: 862.026 us/op
+# Warmup Iteration   3: 878.932 us/op
+# Warmup Iteration   4: 887.115 us/op
+# Warmup Iteration   5: 889.381 us/op
+# Warmup Iteration   6: 878.550 us/op
+# Warmup Iteration   7: 888.838 us/op
+# Warmup Iteration   8: 883.961 us/op
+# Warmup Iteration   9: 878.592 us/op
+# Warmup Iteration  10: 879.408 us/op
+Iteration   1: 881.472 us/op
+Iteration   2: 879.334 us/op
+Iteration   3: 878.294 us/op
+Iteration   4: 880.791 us/op
+Iteration   5: 879.676 us/op
+Iteration   6: 880.298 us/op
+Iteration   7: 876.354 us/op
+Iteration   8: 876.293 us/op
+Iteration   9: 872.792 us/op
+Iteration  10: 877.505 us/op
+Iteration  11: 876.497 us/op
+Iteration  12: 870.502 us/op
+Iteration  13: 877.056 us/op
+Iteration  14: 872.457 us/op
+Iteration  15: 871.604 us/op
+Iteration  16: 874.647 us/op
+Iteration  17: 873.985 us/op
+Iteration  18: 870.320 us/op
+Iteration  19: 882.675 us/op
+Iteration  20: 886.254 us/op
+
+
+Result "com.simonj.MyBenchmark.testShifted":
+  876.940 ±(99.9%) 3.715 us/op [Average]
+  (min, avg, max) = (870.320, 876.940, 886.254), stdev = 4.278
+  CI (99.9%): [873.226, 880.655] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:04:02
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                   (bound)   (size)  Mode  Cnt     Score     Error  Units
+MyBenchmark.testBranched       1000  1000000  avgt   20   551.409 ± 175.122  us/op
+MyBenchmark.testBranched      10000  1000000  avgt   20   809.650 ± 390.746  us/op
+MyBenchmark.testBranched     100000  1000000  avgt   20  1430.573 ±   5.165  us/op
+MyBenchmark.testBranched    1000000  1000000  avgt   20   832.372 ±   7.068  us/op
+MyBenchmark.testBranched   10000000  1000000  avgt   20   893.644 ±   3.492  us/op
+MyBenchmark.testBranched  100000000  1000000  avgt   20   534.687 ±   2.038  us/op
+MyBenchmark.testShifted        1000  1000000  avgt   20   875.946 ±   5.085  us/op
+MyBenchmark.testShifted       10000  1000000  avgt   20   877.871 ±   3.640  us/op
+MyBenchmark.testShifted      100000  1000000  avgt   20   877.602 ±   7.742  us/op
+MyBenchmark.testShifted     1000000  1000000  avgt   20   881.255 ±   3.513  us/op
+MyBenchmark.testShifted    10000000  1000000  avgt   20   876.140 ±   4.416  us/op
+MyBenchmark.testShifted   100000000  1000000  avgt   20   876.940 ±   3.715  us/op
+
+
+
